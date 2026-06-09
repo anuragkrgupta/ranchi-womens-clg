@@ -1,0 +1,200 @@
+:root{
+  --nav-bg:#0b4aa3;
+  --topbar-bg:#0f4a94;
+  --accent:#ffd600;
+  --header-bg:#e9f1fb;
+  --text-dark:#0b2740;
+}
+*{box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;margin:0;color:var(--text-dark);background:#f4f7fb}
+/* =========================
+   FOOTER
+========================= */
+
+.site-footer{
+    background:#002b5c;
+    background-image:url("https://www.transparenttextures.com/patterns/cubes.png");
+    color:#fff;
+    padding:28px 0 18px;
+    position:relative;
+}
+
+.footer-container{
+    max-width:1400px;
+    margin:auto;
+    padding:0 24px;
+
+    display:grid;
+    grid-template-columns:1.2fr 1fr 1fr 1.2fr;
+    gap:28px;
+}
+
+.footer-column h3{
+    text-align:center;
+    color:#fff;
+    font-size:16px;
+    font-weight:700;
+    margin-bottom:20px;
+    position:relative;
+}
+
+/* Decorative line */
+.footer-column h3::before{
+    content:"";
+    position:absolute;
+    width:150px;
+    height:1px;
+    background:rgba(255,255,255,.5);
+    left:50%;
+    transform:translateX(-50%);
+    bottom:-10px;
+}
+
+/* Decorative star */
+.footer-column h3::after{
+    content:"✦";
+    position:absolute;
+    left:50%;
+    bottom:-18px;
+    transform:translateX(-50%);
+    background:#002b5c;
+    padding:0 8px;
+    font-size:10px;
+}
+
+.footer-column ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.footer-column ul li{
+    margin-bottom:10px;
+}
+
+.footer-column ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-size:14px;
+    transition:.3s;
+}
+
+.footer-column ul li a:hover{
+    color:#62b0ff;
+}
+
+.footer-column ul li::before{
+    content:"›";
+    color:#4fa2ff;
+    margin-right:8px;
+    font-size:16px;
+}
+
+/* CONTACT */
+.contact-item{
+    display:flex;
+    gap:10px;
+    margin-bottom:10px;
+}
+
+.contact-item i{
+    color:#4fa2ff;
+    width:20px;
+    margin-top:4px;
+}
+
+.contact-item span{
+    line-height:1.6;
+    font-size:15px;
+}
+
+/* SOCIAL */
+.footer-social{
+    display:flex;
+    gap:14px;
+    margin-top:12px;
+}
+
+.footer-social a{
+    width:40px;
+    height:40px;
+    border-radius:8px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:#fff;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.facebook{
+    background:#1877f2;
+}
+
+.youtube{
+    background:#ff0000;
+}
+
+.twitter{
+    background:#000;
+}
+
+/* BACK TO TOP */
+.scroll-top{
+    position:absolute;
+    right:16px;
+    bottom:16px;
+
+    width:50px;
+    height:50px;
+
+    border-radius:8px;
+    background:#5c95e6;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    color:#fff;
+    text-decoration:none;
+    font-size:20px;
+}
+
+/* RESPONSIVE */
+@media(max-width:991px){
+
+    .footer-container{
+        grid-template-columns:1fr;
+        gap:30px;
+    }
+
+    .footer-column h3{
+        text-align:left;
+    }
+
+    .footer-column h3::before,
+    .footer-column h3::after{
+        display:none;
+    }
+}
+@media(max-width:991px){.footer-top{grid-template-columns:1fr;}.footer-bottom{justify-content:center;text-align:center;}}
+@media(max-width:768px){.footer-info-grid{grid-template-columns:1fr;}.footer-top{gap:24px;}}
+@media(max-width:576px){.site-footer{padding:42px 0 18px;}.footer-col h3:after{bottom:-12px;width:38px;}.footer-social a{width:36px;height:36px;}.footer-scroll-top{width:46px;height:46px;font-size:1.2rem;}}
+
+
+/* Submenu animations & flip support */
+.dropdown-submenu > .dropdown-menu{
+    top:0;left:100%;margin-left:.1rem;display:block;position:absolute;z-index:1050;min-width:200px;border-radius:4px;padding:.25rem 0;background:#0c3d78;border:none;opacity:0;transform:translateX(8px);transition:opacity .18s ease, transform .18s ease, visibility 0s linear .18s;visibility:hidden
+}
+
+@media (min-width: 992px){
+    .dropdown-submenu:hover > .dropdown-menu{opacity:1;transform:none;visibility:visible;transition-delay:0s}
+}
+
+.dropdown-submenu > .dropdown-menu.submenu-left{left:auto;right:100%;margin-left:0;margin-right:.1rem}
+.dropdown-submenu.submenu-left > a::after{content:'\25C0'}
+
+/* When JS toggles .show on submenu for mobile, use same visible styles */
+.dropdown-submenu .dropdown-menu.show{opacity:1;transform:none;visibility:visible;transition-delay:0s}

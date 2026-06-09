@@ -1,0 +1,223 @@
+.about-banner{
+    position: relative;
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.about-banner img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Dark overlay */
+.about-banner::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: 1;
+}
+
+/* Center text */
+.banner-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+}
+
+.banner-overlay h1{
+    color: #fff;
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 768px){
+    .about-banner img{
+        height: 220px;
+    }
+
+    .banner-overlay h1{
+        font-size: 32px;
+    }
+}
+
+/* =========================
+   ABOUT SECTION WRAPPER
+========================= */
+
+.about-intro,
+.about-cards{
+    padding: 60px 28% 60px 30px;
+    background: #fff;
+}
+
+/* =========================
+   SECTION HEADING
+========================= */
+
+.section-heading{
+    margin-bottom: 40px;
+}
+
+.section-heading h2{
+    font-size: 34px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.section-heading span{
+    display: block;
+    width: 120px;
+    height: 4px;
+    background: #1976d2;
+}
+
+/* =========================
+   INTRO ROW
+========================= */
+
+.intro-row{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.intro-image{
+    flex: 1;
+}
+
+.intro-image img{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.intro-content{
+    flex: 1;
+}
+
+.intro-content h3{
+    font-size: 42px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+.intro-content p{
+    font-size: 18px;
+    line-height: 1.9;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* =========================
+   CARDS GRID
+========================= */
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.about-card{
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    transition: 0.3s;
+}
+
+.about-card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-overlay{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 55px;
+    border: 8px solid rgba(255,255,255,0.7);
+}
+
+.card-title{
+    background: #e53935;
+    color: #fff;
+    text-align: center;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Hover Effect */
+
+.about-card:hover{
+    transform: translateY(-5px);
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1200px){
+
+    .about-intro,
+    .about-cards{
+        padding-right: 15%;
+    }
+
+    .cards-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px){
+
+    .about-intro,
+    .about-cards{
+        padding: 40px 15px;
+    }
+
+    .intro-row{
+        flex-direction: column;
+    }
+
+    .intro-content h3{
+        font-size: 30px;
+    }
+
+    .intro-content p{
+        font-size: 16px;
+    }
+
+    .cards-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .about-card img{
+        height: 240px;
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+}

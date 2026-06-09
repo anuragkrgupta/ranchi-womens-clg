@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Georgia, serif;
+    background:#f3f3f3;
+}
+
+/* Banner */
+.tender-banner{
+    background: linear-gradient(90deg,#0c4f97,#57c2ee);
+    height:120px;
+    display:flex;
+    align-items:flex-end;
+    padding:20px 30px;
+}
+
+.tender-banner h1{
+    color:#fff;
+    font-size:48px;
+    font-weight:bold;
+}
+
+/* Content */
+.tender-section{
+    max-width:1100px;
+    padding:150px 20px 0; /* creates large white space */
+    margin:0 auto;
+}
+
+.tender-list{
+    list-style:none;
+}
+
+.tender-list li{
+    margin-bottom:35px;
+    font-size:20px;
+    color:#333;
+    line-height:1.6;
+}
+
+.tender-list a{
+    color:#4f6fb8;
+    text-decoration:none;
+}
+
+.tender-list a:hover{
+    text-decoration:underline;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    .tender-banner{
+        height:90px;
+        padding:15px 20px;
+    }
+
+    .tender-banner h1{
+        font-size:32px;
+    }
+
+    .tender-section{
+        margin:40px auto;
+    }
+
+    .tender-list li{
+        font-size:16px;
+        margin-bottom:25px;
+    }
+}
