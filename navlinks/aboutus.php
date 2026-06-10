@@ -60,13 +60,17 @@ include('../include/navbar.php');
             <div class="about-card">
                 <img src="../assets/aboutus/clgimg.jpeg">
                 <div class="card-overlay"></div>
-                <div class="card-title">Institute Vision</div>
+                <div class="card-title">
+                    <a href="..\navlinks\vision-mission.php">Vision and Mission</a>
+                </div>
             </div>
 
             <div class="about-card">
                 <img src="../assets/aboutus/clgimg.jpeg">
                 <div class="card-overlay"></div>
-                <div class="card-title">History</div>
+                <div class="card-title">
+                     <a href="..\navlinks\history.php">History</a>
+                </div>
             </div>
 
             <div class="about-card">

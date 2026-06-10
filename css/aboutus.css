@@ -128,11 +128,18 @@
 .card-title{
     background:#e53935;
     color: white;
-    
     text-align:center;
     padding:14px;
     font-size:18px;
     font-weight:700;
+}
+.card-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.card-title a:hover {
+    color: var(--header-bg);
 }
 
 /* Updates */
