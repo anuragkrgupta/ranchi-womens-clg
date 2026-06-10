@@ -17,7 +17,7 @@
 				<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle px-3" href="../ranchi-womens-clg/index.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">Home</a>	
 						<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="..\ranchi-womens-clg\navlinks\tender.php">Tender</a></li>
+						<li><a class="dropdown-item" href="/ranchi-womens-clg/navlinks/tender.php">Tender</a></li>
 						
 					</ul>
 				</li>
@@ -57,7 +57,7 @@
 						<li class="dropdown-submenu">
 							<a class="dropdown-item dropdown-toggle" href="#">Science</a>
 							<ul class="dropdown-menu">
-								<li><a class="dropdown-item" href="#">Physics</a></li>
+								<li><a class="dropdown-item" href="#">Physics </a></li>
 								<li><a class="dropdown-item" href="#">Chemistry</a></li>
 								<li><a class="dropdown-item" href="#">Botony</a></li>
                                 <li><a class="dropdown-item" href="#">Mathematics</a></li>

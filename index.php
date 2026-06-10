@@ -434,6 +434,11 @@ include __DIR__. '/include/navbar.php';
 
             <div class="important-links-grid">
 
+                <a href="https://www.ranchiwomenscollege.org:2096/" class="important-link-card" target="_blank">
+                    <img src="assets/clg logo.png" alt="Link 1">
+                    <p>Instituional Webmail</p>
+                </a>
+
                 <a href="https://nlist.inflibnet.ac.in/" class="important-link-card" target="_blank">
                     <img src="assets/infl.png" alt="Link 1">
                     <p>INFLIBNET Centre</p>

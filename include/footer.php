@@ -80,6 +80,8 @@
                 <li><a href="#">Tenders</a></li>
                 <li><a href="#">NIRF</a></li>
                 <li><a href="#">RU Alumni Association</a></li>
+                <li><a href="https://www.ranchiwomenscollege.org:2096/">Institutional Webmail</a></li>
+
             </ul>
         </div>
 
@@ -91,10 +93,11 @@
 
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="\ranchi-womens-clg\js\navbar.js"></script>
 <script src="\ranchi-womens-clg\js\syllabus.js"></script>
+<script src="\ranchi-womens-clg\js\progcourses.js"></script>
 
 
 

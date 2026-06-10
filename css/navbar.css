@@ -134,7 +134,7 @@
 =========================== */
 
 .dropdown-submenu > a::after {
-    content: "▶";
+    content: "";
     float: right;
     font-size: 10px;
     opacity: .7;
