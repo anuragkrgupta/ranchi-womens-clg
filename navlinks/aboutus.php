@@ -94,7 +94,7 @@ include('../include/navbar.php');
             <div class="about-card">
                 <img src="../assets/aboutus/clgimg.jpeg">
                 <div class="card-overlay"></div>
-                <div class="card-title">International Collaborations</div>
+                <div class="card-title">Newsletters</div>
             </div>
 
         </div>

@@ -11,6 +11,12 @@
         <link rel="stylesheet" href="/ranchi-womens-clg/css/index.css">
         <link rel="stylesheet" href="/ranchi-womens-clg/css/tender.css">
         <link rel="stylesheet" href="/ranchi-womens-clg/css/aboutus.css">
+        <link rel="stylesheet" href="/ranchi-womens-clg/css/vision-mission.css">
+        <link rel="stylesheet" href="/ranchi-womens-clg/css/history.css">
+        <link rel="stylesheet" href="/ranchi-womens-clg/css/rules.css">
+        <link rel="stylesheet" href="/ranchi-womens-clg/css/holidaylist.css">
+        <link rel="stylesheet" href="/ranchi-womens-clg/css/syllabus.css">
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <meta name="theme-color" content="#0b3b66">
         <!-- <base target="_blank"> -->

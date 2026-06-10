@@ -1,0 +1,300 @@
+/* sylabus  */
+* {
+    box-sizing: border-box;
+}
+
+.syllabus-page {
+    background: #f3f3f3;
+    padding: 50px 20px;
+}
+
+.syllabus-container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+
+
+/* Left Sidebar */
+
+
+.syllabus-sidebar {
+    width: 340px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+}
+
+
+.syllabus-sidebar h3 {
+    background: #00295c;
+    color: #fff;
+    margin: 0;
+    padding: 18px 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/* Menu */
+
+.syllabus-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.syllabus-menu li {
+    position: relative;
+    padding: 18px 20px 18px 45px;
+    border-bottom: 1px solid #ddd;
+    color: #00295c;
+    font-size: 17px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/* Arrow */
+.syllabus-menu li::before {
+    content: "›";
+    position: absolute;
+    left: 20px;
+    top: 17px;
+    font-size: 22px;
+    color: #00295c;
+}
+
+
+.syllabus-menu li:hover {
+    background: #f7f7f7;
+}
+
+
+.syllabus-menu li.active {
+    background: #f6c400;
+    color: #000;
+    font-weight: 600;
+}
+
+
+.syllabus-menu li.active::before {
+    color: #000;
+}
+
+
+
+   /* Right Content */
+
+
+.syllabus-content {
+    flex: 1;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 25px;
+    min-height: 700px;
+}
+
+
+/* Hide all sections by default */
+.syllabus-section {
+    display: none;
+}
+
+
+/* Default visible section */
+.syllabus-section.active {
+    display: block;
+}
+
+
+/* Section heading */
+
+.syllabus-section h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: var(--footer-bg);
+    font-size: 32px;
+    font-weight: 700;
+    border-bottom: 3px solid #f6c400;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+
+
+   /* Syllabus Table */
+
+
+.syllabus-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 17px;
+}
+
+
+.syllabus-table th {
+    background: var(--footer-bg);
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+
+.syllabus-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    color: #0b2b55;
+}
+
+
+/* Serial Number */
+.syllabus-table td:first-child,
+.syllabus-table th:first-child {
+    width: 90px;
+    text-align: center;
+}
+
+
+/* Download column */
+.syllabus-table td:last-child,
+.syllabus-table th:last-child {
+    width: 150px;
+    text-align: center;
+}
+
+
+/* Alternate row color */
+.syllabus-table tbody tr:nth-child(even),
+.syllabus-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+
+/* Hover */
+.syllabus-table tr:hover {
+    background: #fff5e6;
+}
+
+
+/* Download button */
+
+.syllabus-table a {
+    display: inline-block;
+    background: #00295c;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+
+.syllabus-table a:hover {
+    background: #f6c400;
+    color: #00295c;
+    font-weight: 600;
+}
+
+
+
+   /* Scroll for small screens */
+
+
+.syllabus-content {
+    overflow: hidden;
+}
+
+.syllabus-section {
+    overflow-x: auto;
+}
+
+
+
+   /* Tablet */
+
+
+@media (max-width: 992px) {
+
+    .syllabus-container {
+        flex-direction: column;
+    }
+
+
+    .syllabus-sidebar {
+        width: 100%;
+    }
+
+
+    .syllabus-content {
+        width: 100%;
+        padding: 20px;
+    }
+
+}
+
+
+
+   /* Mobile */
+
+
+@media (max-width: 768px) {
+
+    .syllabus-page {
+        padding: 30px 15px;
+    }
+
+
+    .syllabus-sidebar h3 {
+        font-size: 20px;
+    }
+
+
+    .syllabus-menu li {
+        font-size: 15px;
+        padding: 15px 15px 15px 40px;
+    }
+
+
+    .syllabus-menu li::before {
+        left: 15px;
+        top: 13px;
+        font-size: 20px;
+    }
+
+
+    .syllabus-content {
+        padding: 15px;
+    }
+
+
+    .syllabus-section h2 {
+        font-size: 24px;
+        line-height: 1.3;
+    }
+
+
+    .syllabus-table {
+        min-width: 600px;
+        font-size: 14px;
+    }
+
+
+    .syllabus-table th,
+    .syllabus-table td {
+        padding: 12px 10px;
+    }
+
+
+    .syllabus-table a {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+
+}

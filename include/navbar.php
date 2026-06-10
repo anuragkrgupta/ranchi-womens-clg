@@ -28,9 +28,9 @@
 						<!-- <li><a class="dropdown-item" href="#">Background</a></li> -->
 						<!-- <li><a class="dropdown-item" href="#">Vision & Mission</a></li> -->
    						<!-- <li><a class="dropdown-item" href="#">Principals</a></li> -->
-                        <li><a class="dropdown-item" href="#">Rules & Regulations</a></li>
-                        <li><a class="dropdown-item" href="#">Holiday List</a></li>
-                        <li><a class="dropdown-item" href="#">Ranchi Univercity kulgeet</a></li>
+                        <li><a class="dropdown-item" href="/ranchi-womens-clg/navlinks/rules.php">Rules & Regulations</a></li>
+                        <li><a class="dropdown-item" href="/ranchi-womens-clg/navlinks/holidaylist.php">Holiday List</a></li>
+                        <!-- <li><a class="dropdown-item" href="#">Ranchi Univercity kulgeet</a></li> -->
                         <li><a class="dropdown-item" href="#">IQAC & AQAR</a></li>
                         <li><a class="dropdown-item" href="#">Statutory Bodies</a></li>
                         <!-- <li><a class="dropdown-item" href="#">Committees</a></li> -->
@@ -42,8 +42,8 @@
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Academic</a>
 					<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#">Syllabus</a></li>
-						<li><a class="dropdown-item" href="#">Programme & Courses</a></li>
+						<li><a class="dropdown-item" href="/ranchi-womens-clg/navlinks/syllabus.php">Syllabus</a></li>
+						<li><a class="dropdown-item" href="/ranchi-womens-clg/navlinks/progcourses.php">Programme & Courses</a></li>
 						<li><a class="dropdown-item" href="#">Academic Calender</a></li>
                         <li><a class="dropdown-item" href="#">Library</a></li>
                         <li><a class="dropdown-item" href="#">Fee Structure</a></li>
