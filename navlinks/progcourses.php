@@ -7,56 +7,97 @@ include('../include/navbar.php');
 
     <div class="seat-container">
 
-        <!-- Left Sidebar -->
-        <aside class="seat-sidebar">
+       <!-- Left Column -->
+<div class="left-sidebar">
 
-            <h3>Course Category</h3>
+    <!-- Course Category Sidebar -->
+    <aside class="seat-sidebar">
 
-            <ul class="seat-menu">
+        <h3>Course Category</h3>
 
-                <li class="active" data-target="ug-arts">
-                    Undergraduate Arts
-                </li>
+        <ul class="seat-menu">
 
-                <li data-target="ug-science">
-                    Undergraduate Science
-                </li>
+            <li class="active" data-target="ug-arts">
+                Undergraduate Arts
+            </li>
 
-                <li data-target="ug-commerce">
-                    Undergraduate Commerce
-                </li>
+            <li data-target="ug-science">
+                Undergraduate Science
+            </li>
 
-                <li data-target="pg-arts">
-                    Postgraduate in Arts (MA)
-                </li>
+            <li data-target="ug-commerce">
+                Undergraduate Commerce
+            </li>
 
-                <li data-target="pg-science">
-                    Postgraduate in Science (M.Sc.)
-                </li>
+            <li data-target="pg-arts">
+                Postgraduate in Arts (MA)
+            </li>
 
-                <li data-target="pg-commerce">
-                    Postgraduate in Commerce (M.Com.)
-                </li>
+            <li data-target="pg-science">
+                Postgraduate in Science (M.Sc.)
+            </li>
 
-                <li data-target="ug-vocational">
-                    Undergraduate Vocational Self Financing Courses
-                </li>
+            <li data-target="pg-commerce">
+                Postgraduate in Commerce (M.Com.)
+            </li>
 
-                <li data-target="pg-vocational">
-                    Postgraduate Vocational Self Financing Courses
-                </li>
+            <li data-target="ug-vocational">
+                Undergraduate Vocational Self Financing Courses
+            </li>
 
-                <li data-target="bed">
-                    Bachelor of Education
-                </li>
+            <li data-target="pg-vocational">
+                Postgraduate Vocational Self Financing Courses
+            </li>
 
-                <li data-target="ma-education">
-                    MA in Education
-                </li>
+            <li data-target="bed">
+                Bachelor of Education
+            </li>
 
-            </ul>
+            <li data-target="ma-education">
+                MA in Education
+            </li>
 
-        </aside>
+        </ul>
+
+    </aside>
+
+
+    <!-- Quick Links -->
+    <aside class="quick-sidebar">
+
+        <h3>Quick Links</h3>
+
+        <ul class="quick-menu">
+
+            <li>
+                <a href="../navlinks/progcourses.php">
+                    Program and Courses
+                </a>
+            </li>
+
+            <li>
+                <a href="academic-calendar.php">
+                    Academic Calendar
+                </a>
+            </li>
+
+            <li>
+                <a href="fee-structure.php">
+                    Fee Structure
+                </a>
+            </li>
+
+            <li>
+                <a href="syllabus.php">
+                    Syllabus
+                </a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+</div>
 
 
 

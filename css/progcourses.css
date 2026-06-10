@@ -19,6 +19,28 @@
     align-items: flex-start;
 }
 
+/* Left sidebar column */
+.left-sidebar {
+    width: 340px;
+    min-width: 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Both sidebar boxes */
+.seat-sidebar,
+.quick-sidebar {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Right content takes remaining space */
+.seat-content {
+    flex: 1;
+    min-width: 0;
+}
 
 
    /* Left Sidebar */

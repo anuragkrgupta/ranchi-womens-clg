@@ -119,7 +119,7 @@
 .syllabus-section h2 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: var(--footer-bg);
+    color: var(--topbar-bg);
     font-size: 32px;
     font-weight: 700;
     border-bottom: 3px solid #f6c400;
@@ -140,7 +140,7 @@
 
 
 .syllabus-table th {
-    background: var(--footer-bg);
+    background: var(--topbar-bg);
     color: #ffffff;
     padding: 15px;
     text-align: center;
@@ -174,7 +174,7 @@
 /* Alternate row color */
 .syllabus-table tbody tr:nth-child(even),
 .syllabus-table tr:nth-child(even) {
-    background: #f8f8f8;
+    background: white;
 }
 
 
