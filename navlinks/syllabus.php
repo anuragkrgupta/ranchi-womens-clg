@@ -4,21 +4,30 @@ include('../include/navbar.php');
 ?>
 <body>
 <section class="syllabus-page">
+<div class="syllabus-container">
 
-    <div class="syllabus-container">
+    <!-- Left Column -->
+    <div class="left-sidebar">
 
-        <!-- Left Sidebar -->
+
+        <!-- Syllabus Sidebar -->
         <aside class="syllabus-sidebar">
 
             <h3>Syllabus</h3>
 
             <ul class="syllabus-menu">
 
-                <li class="active" data-target="ug-arts">Undergraduate Arts</li>
+                <li class="active" data-target="ug-arts">
+                    Undergraduate Arts
+                </li>
 
-                <li data-target="ug-science">Undergraduate Science</li>
+                <li data-target="ug-science">
+                    Undergraduate Science
+                </li>
 
-                <li data-target="ug-commerce">Undergraduate Commerce</li>
+                <li data-target="ug-commerce">
+                    Undergraduate Commerce
+                </li>
 
                 <li data-target="ug-vocational">
                     Undergraduate Vocational Self Financing Courses
@@ -51,6 +60,47 @@ include('../include/navbar.php');
             </ul>
 
         </aside>
+
+
+        <!-- Quick Links -->
+        <aside class="quick-sidebar">
+
+            <h3>Quick Links</h3>
+
+            <ul class="quick-menu">
+
+                <li>
+                    <a href="../navlinks/progcourses.php">
+                        Program and Courses
+                    </a>
+                </li>
+
+                <li>
+                    <a href="academic-calendar.php">
+                        Academic Calendar
+                    </a>
+                </li>
+
+                <li>
+                    <a href="fee-structure.php">
+                        Fee Structure
+                    </a>
+                </li>
+
+                <li>
+                    <a href="library.php">
+                        Library
+                    </a>
+                </li>
+
+            </ul>
+
+        </aside>
+
+
+    </div>
+
+        
 
 
         <!-- Right Content -->
@@ -197,19 +247,23 @@ include('../include/navbar.php');
 
                     <tr><th>S.No.</th><th>Course</th><th>Syllabus</th></tr>
 
-                    <tr><td>1</td><td>MA Hindi</td><td>Download</td></tr>
-                    <tr><td>2</td><td>MA English</td><td>Download</td></tr>
-                    <tr><td>3</td><td>MA History</td><td>Download</td></tr>
-                    <tr><td>4</td><td>MA Political Science</td><td>Download</td></tr>
-                    <tr><td>5</td><td>MA Economics</td><td>Download</td></tr>
-                    <tr><td>6</td><td>MA Home Science</td><td>Download</td></tr>
-                    <tr><td>7</td><td>MA Geography</td><td>Download</td></tr
-                                        <tr>
-                        <td>7</td>
-                        <td>MA Geography</td>
+                    <tr><td>1</td><td>MA Hindi</td><td><a href="#">Download</a></td></tr>
+                    <tr><td>2</td><td>MA English</td><td><a href="#">Download</a></td></tr>
+                    <tr><td>3</td><td>MA History</td><td><a href="#">Download</a></td></tr>
+                    <tr><td>4</td><td>MA Political Science</td><td><a href="#">Download</a></td></tr>
+                    <tr><td>5</td><td>MA Economics</td><td><a href="#">Download</a></td></tr>
+                    <tr>
+                        <td>6</td>
+                        <td>MA Home Science</td>
                         <td><a href="#">Download</a></td>
                     </tr>
-
+                    <tr>
+                        <td>7</td>
+                        <td>MA Geography</td>
+                        <td>
+                            <a href="#">Download</a>
+                        </td>
+                    </tr>
                     <tr>
                         <td>8</td>
                         <td>MA Philosophy</td>

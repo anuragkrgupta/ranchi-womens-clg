@@ -58,7 +58,7 @@ include('../include/navbar.php');
         <div class="cards-grid">
 
             <div class="about-card">
-                <img src="../assets/aboutus/clgimg.jpeg">
+                <img src="..\assets\vision\images.jpg">
                 <div class="card-overlay"></div>
                 <div class="card-title">
                     <a href="..\navlinks\vision-mission.php">Vision and Mission</a>
@@ -66,7 +66,7 @@ include('../include/navbar.php');
             </div>
 
             <div class="about-card">
-                <img src="../assets/aboutus/clgimg.jpeg">
+                <img src="../assets/history/imgg.png">
                 <div class="card-overlay"></div>
                 <div class="card-title">
                      <a href="..\navlinks\history.php">History</a>
@@ -74,7 +74,7 @@ include('../include/navbar.php');
             </div>
 
             <div class="about-card">
-                <img src="../assets/aboutus/clgimg.jpeg">
+                <img src="..\assets\vision\vinita.jpeg">
                 <div class="card-overlay"></div>
                 <div class="card-title">Principal's Message</div>
             </div>
