@@ -1,9 +1,17 @@
+<body>
+	
+
 <nav class="navbar navbar-expand-lg navbar-dark bg-ranchi">
 	<div class="container-fluid">
 		
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+		<button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
 		<div class="collapse navbar-collapse" id="mainNavbar">
 			<ul class="navbar-nav mx-auto mb-2 mb-lg-0">
 				<li class="nav-item dropdown">
@@ -17,16 +25,16 @@
 					<a class="nav-link dropdown-toggle px-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">The College</a>
 					<ul class="dropdown-menu">
 						<li><a class="dropdown-item" href="/ranchi-womens-clg/navlinks/aboutus.php">About Us</a></li>
-						<li><a class="dropdown-item" href="#">Background</a></li>
-						<li><a class="dropdown-item" href="#">Vision & Mission</a></li>
-   						<li><a class="dropdown-item" href="#">Principals</a></li>
+						<!-- <li><a class="dropdown-item" href="#">Background</a></li> -->
+						<!-- <li><a class="dropdown-item" href="#">Vision & Mission</a></li> -->
+   						<!-- <li><a class="dropdown-item" href="#">Principals</a></li> -->
                         <li><a class="dropdown-item" href="#">Rules & Regulations</a></li>
                         <li><a class="dropdown-item" href="#">Holiday List</a></li>
                         <li><a class="dropdown-item" href="#">Ranchi Univercity kulgeet</a></li>
                         <li><a class="dropdown-item" href="#">IQAC & AQAR</a></li>
                         <li><a class="dropdown-item" href="#">Statutory Bodies</a></li>
-                        <li><a class="dropdown-item" href="#">Committees</a></li>
-                        <li><a class="dropdown-item" href="#">Infrastructure</a></li>
+                        <!-- <li><a class="dropdown-item" href="#">Committees</a></li> -->
+                        <!-- <li><a class="dropdown-item" href="#">Infrastructure</a></li> -->
                         <li><a class="dropdown-item" href="#">newsletter</a></li>
 
 					</ul>
@@ -120,3 +128,29 @@
 		</div>
 	</div>
 </nav>
+
+</body>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.querySelectorAll(".dropdown-submenu > a")
+    .forEach(function(item) {
+
+        item.addEventListener("click", function(e) {
+
+            if (window.innerWidth < 992) {
+                e.preventDefault();
+                e.stopPropagation();
+
+                let submenu = this.nextElementSibling;
+
+                submenu.classList.toggle("show");
+            }
+
+        });
+
+    });
+
+});
+</script>

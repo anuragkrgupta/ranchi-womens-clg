@@ -92,7 +92,30 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+
+<script>
+document.querySelectorAll('.dropdown-submenu > .dropdown-toggle')
+.forEach(function(el){
+
+    el.addEventListener('click', function(e){
+
+        if(window.innerWidth < 992){
+
+            e.preventDefault();
+            e.stopPropagation();
+
+            let submenu = this.nextElementSibling;
+
+            if(submenu){
+                submenu.classList.toggle('show');
+            }
+        }
+
+    });
+
+});
+</script>
 
 </body>
 </html>

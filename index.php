@@ -4,7 +4,7 @@ include __DIR__. '/include/navbar.php';
 ?>
 
 <section class="photo-banner">
-  <div id="collegeCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div id="collegeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#collegeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#collegeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -279,7 +279,7 @@ include __DIR__. '/include/navbar.php';
           <div class="archive-header d-flex align-items-center justify-content-between mb-3">
             <div>
               <div class="archive-label">CURRENT UPDATES</div>
-              <h3 class="archive-title">ARCHIVE LIST</h3>
+              <h3 class="archive-title">STUDETNS CORNER</h3>
             </div>
             <div class="archive-icon">📄</div>
           </div>
@@ -319,7 +319,7 @@ include __DIR__. '/include/navbar.php';
           <div class="archive-header d-flex align-items-center justify-content-between mb-3">
             <div>
               <div class="archive-label">DOWNLOADS</div>
-              <h3 class="archive-title">ARCHIVE LIST</h3>
+              <h3 class="archive-title">ALL UPDATES</h3>
             </div>
             <div class="archive-icon">⬇️</div>
           </div>

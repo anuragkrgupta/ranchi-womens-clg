@@ -380,7 +380,7 @@
 }
 .media-events-section .event-card .card-body {
   background: #04285a;
-  padding: 1.15rem;
+  padding: 0.6rem;
 }
 .media-events-section .event-card .badge {
   font-size: 0.85rem;
@@ -388,7 +388,7 @@
 }
 .media-events-section .event-card .card-title {
   font-size: 1.1rem;
-  line-height: 1.4;
+  line-height: 1rem;
   margin-bottom: 0;
   color: #fff;
   background-color: #04285a;
@@ -562,7 +562,7 @@
     transform: translateY(0);
   }
   100% {
-    transform: translateY(-50%);
+    transform: translateY(-70%);
   }
 }
 .archive-item {
