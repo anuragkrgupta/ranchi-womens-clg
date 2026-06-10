@@ -396,6 +396,15 @@
 .media-events-section .tab-pane {
   padding-top: 10px;
 }
+.syllabus-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.syllabus-link:hover .card-title {
+    color: yellow;
+    cursor: pointer;
+}
 @media (max-width: 768px) {
   .media-events-section .tab-pane .row {
     flex-wrap: nowrap;

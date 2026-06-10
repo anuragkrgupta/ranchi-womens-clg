@@ -192,7 +192,9 @@ include __DIR__. '/include/navbar.php';
               <img src="assets/clg.jpg" class="card-img-top" alt="Event 1">
               <div class="card-body">
                 <span class="badge bg-warning text-dark mb-2">Program</span>
+                <a href="navlinks\progcourses.php" class="syllabus-link">
                 <h5 class="card-title">Discover Our Programs and Courses</h5>
+                </a>
               </div>
             </div>
           </div>
@@ -210,7 +212,9 @@ include __DIR__. '/include/navbar.php';
               <img src="assets/clg.jpg" class="card-img-top" alt="Event 3">
               <div class="card-body">
                 <span class="badge bg-warning text-dark mb-2">Program</span>
-                <h5 class="card-title">Syllabus Details for All Courses &nbsp; &nbsp; &nbsp; &nbsp;</h5>
+               <a href="navlinks\syllabus.php" class="syllabus-link">
+                <h5 class="card-title">Syllabus Details for All Courses</h5>
+              </a>
               </div>
             </div>
           </div>
