@@ -179,7 +179,7 @@
 
     /* Bootstrap toggles this */
     .navbar .dropdown-menu.show {
-        /* display:; */
+        display: block;
     }
 
 
