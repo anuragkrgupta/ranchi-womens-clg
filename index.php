@@ -4,52 +4,52 @@ include __DIR__. '/include/navbar.php';
 ?>
 
 <section class="photo-banner">
-  <div id="collegeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#collegeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#collegeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#collegeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-      <button type="button" data-bs-target="#collegeCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-      <button type="button" data-bs-target="#collegeCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-      <button type="button" data-bs-target="#collegeCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
-      <button type="button" data-bs-target="#collegeCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
-      <button type="button" data-bs-target="#collegeCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+<!-- Swiper Slider -->
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide">
+      <img src="assets/slider-12-09-2025-1.webp" alt="Ranchi Women's College slide 1">
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/slider-12-09-2025-1.webp" class="d-block w-100" alt="Ranchi Women's College slide 1">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/slider-12-09-2025-2.webp" class="d-block w-100" alt="Ranchi Women's College slide 2">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/slider-12-09-2025-3.webp" class="d-block w-100" alt="Ranchi Women's College slide 3">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/slider-12-09-2025-4.webp" class="d-block w-100" alt="Ranchi Women's College slide 4">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/slider-12-09-2025-5.webp" class="d-block w-100" alt="Ranchi Women's College slide 5">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/slider-12-09-2025-6.webp" class="d-block w-100" alt="Ranchi Women's College slide 6">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/slider-12-09-2025-7.webp" class="d-block w-100" alt="Ranchi Women's College slide 7">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/slider-05-05-2026.webp" class="d-block w-100" alt="Ranchi Women's College slide 8">
-      </div>
+
+    <div class="swiper-slide">
+      <img src="assets/slider-12-09-2025-2.webp" alt="Ranchi Women's College slide 2">
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#collegeCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#collegeCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+
+    <div class="swiper-slide">
+      <img src="assets/slider-12-09-2025-3.webp" alt="Ranchi Women's College slide 3">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="assets/slider-12-09-2025-4.webp" alt="Ranchi Women's College slide 4">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="assets/slider-12-09-2025-5.webp" alt="Ranchi Women's College slide 5">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="assets/slider-12-09-2025-6.webp" alt="Ranchi Women's College slide 6">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="assets/slider-12-09-2025-7.webp" alt="Ranchi Women's College slide 7">
+    </div>
+
+    <div class="swiper-slide">
+      <img src="assets/slider-05-05-2026.webp" alt="Ranchi Women's College slide 8">
+    </div>
+
   </div>
+
+  <!-- Pagination Dots -->
+  <div class="swiper-pagination"></div>
+
+  <!-- Navigation Arrows -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+
+</div>
   <div class="photo-banner-text">
     <h2>Welcome to Ranchi Women's College</h2>
     <p>Celebrating excellence in women's higher education since 1960.</p>
@@ -86,91 +86,168 @@ include __DIR__. '/include/navbar.php';
 <section class="success-section py-5">
   <div class="container">
     <div class="row align-items-center gy-4">
+
+      <!-- Left Content -->
       <div class="col-lg-5">
         <div class="success-copy">
           <p class="success-tag">Student Success</p>
           <h2>From Classroom to Career</h2>
-          <p>Ranchi Women’s College graduates shine with exceptional placements, powered by a future-ready curriculum, strong industry partnerships, and hands-on experience that creates confident professionals.</p>
+          <p>
+            Ranchi Women’s College graduates shine with exceptional placements,
+            powered by a future-ready curriculum, strong industry partnerships,
+            and hands-on experience that creates confident professionals.
+          </p>
         </div>
-        <div class="success-controls d-flex gap-3 mt-4">
-          <button class="success-control-btn" type="button" data-bs-target="#successCarousel" data-bs-slide="prev" aria-label="Previous slide">
-            ‹
+
+        <!-- Swiper Custom Controls -->
+        <div class="success-controls">
+          <button class="success-prev" aria-label="Previous slide">
+            &#10094;
           </button>
-          <button class="success-control-btn" type="button" data-bs-target="#successCarousel" data-bs-slide="next" aria-label="Next slide">
-            ›
+
+          <button class="success-next" aria-label="Next slide">
+            &#10095;
           </button>
         </div>
       </div>
+
+
+      <!-- Right Slider -->
       <div class="col-lg-7">
-        <div id="successCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row g-3">
-                <div class="col-md-6 col-xl-4">
-                  <div class="success-card rounded-4 shadow-sm">
-                    <img src="assets/stdnt-placed.png" alt="Student placed" class="success-card-hero img-fluid">
-                    <div class="success-card-body p-4">
-                      <div class="success-card-package">₹24 LAKH PACKAGE</div>
-                      <div class="success-card-name">Lorem, ipsum.</div>
-                    </div>
+        <div class="swiper successSwiper">
+
+          <div class="swiper-wrapper">
+
+            <!-- Card 1 -->
+            <div class="swiper-slide">
+              <div class="success-card rounded-4 shadow-sm">
+                <img src="assets/stdnt-placed.png"
+                  class="success-card-hero img-fluid"
+                  alt="Student placed">
+
+                <div class="success-card-body p-4">
+                  <div class="success-card-package">
+                    ₹24 LAKH PACKAGE
                   </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                  <div class="success-card rounded-4 shadow-sm">
-                    <img src="assets/stdnt-placed.png" alt="Student placed" class="success-card-hero img-fluid">
-                    <div class="success-card-body p-4">
-                      <div class="success-card-package">₹23.7 LAKH PACKAGE</div>
-                      <div class="success-card-name">Lorem, ipsum dolor.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                  <div class="success-card rounded-4 shadow-sm">
-                    <img src="assets/stdnt-placed.png" alt="Student placed" class="success-card-hero img-fluid">
-                    <div class="success-card-body p-4">
-                      <div class="success-card-package">₹54.09 LAKH PACKAGE</div>
-                      <div class="success-card-name">Lorem.</div>
-                    </div>
+
+                  <div class="success-card-name">
+                    Lorem, ipsum.
                   </div>
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="row g-3">
-                <div class="col-md-6 col-xl-4">
-                  <div class="success-card rounded-4 shadow-sm">
-                    <img src="assets/stdnt-placed.png" alt="Student placed" class="success-card-hero img-fluid">
-                    <div class="success-card-body p-4">
-                      <div class="success-card-package">₹31 LAKH PACKAGE</div>
-                      <div class="success-card-name">Lorem, ipsum.</div>
-                    </div>
+
+
+            <!-- Card 2 -->
+            <div class="swiper-slide">
+              <div class="success-card rounded-4 shadow-sm">
+                <img src="assets/stdnt-placed.png"
+                  class="success-card-hero img-fluid"
+                  alt="Student placed">
+
+                <div class="success-card-body p-4">
+                  <div class="success-card-package">
+                    ₹23.7 LAKH PACKAGE
                   </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                  <div class="success-card rounded-4 shadow-sm">
-                    <img src="assets/stdnt-placed.png" alt="Student placed" class="success-card-hero img-fluid">
-                    <div class="success-card-body p-4">
-                      <div class="success-card-package">₹28.5 LAKH PACKAGE</div>
-                      <div class="success-card-name">Lorem, ipsum dolor.</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 col-xl-4">
-                  <div class="success-card rounded-4 shadow-sm">
-                    <img src="assets/stdnt-placed.png" alt="Student placed" class="success-card-hero img-fluid">
-                    <div class="success-card-body p-4">
-                      <div class="success-card-package">₹26 LAKH PACKAGE</div>
-                      <div class="success-card-name">Lorem, ipsum.</div>
-                    </div>
+
+                  <div class="success-card-name">
+                    Lorem, ipsum dolor.
                   </div>
                 </div>
               </div>
             </div>
+
+
+            <!-- Card 3 -->
+            <div class="swiper-slide">
+              <div class="success-card rounded-4 shadow-sm">
+                <img src="assets/stdnt-placed.png"
+                  class="success-card-hero img-fluid"
+                  alt="Student placed">
+
+                <div class="success-card-body p-4">
+                  <div class="success-card-package">
+                    ₹54.09 LAKH PACKAGE
+                  </div>
+
+                  <div class="success-card-name">
+                    Lorem.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Card 4 -->
+            <div class="swiper-slide">
+              <div class="success-card rounded-4 shadow-sm">
+                <img src="assets/stdnt-placed.png"
+                  class="success-card-hero img-fluid"
+                  alt="Student placed">
+
+                <div class="success-card-body p-4">
+                  <div class="success-card-package">
+                    ₹31 LAKH PACKAGE
+                  </div>
+
+                  <div class="success-card-name">
+                    Lorem, ipsum.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Card 5 -->
+            <div class="swiper-slide">
+              <div class="success-card rounded-4 shadow-sm">
+                <img src="assets/stdnt-placed.png"
+                  class="success-card-hero img-fluid"
+                  alt="Student placed">
+
+                <div class="success-card-body p-4">
+                  <div class="success-card-package">
+                    ₹28.5 LAKH PACKAGE
+                  </div>
+
+                  <div class="success-card-name">
+                    Lorem, ipsum dolor.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Card 6 -->
+            <div class="swiper-slide">
+              <div class="success-card rounded-4 shadow-sm">
+                <img src="assets/stdnt-placed.png"
+                  class="success-card-hero img-fluid"
+                  alt="Student placed">
+
+                <div class="success-card-body p-4">
+                  <div class="success-card-package">
+                    ₹26 LAKH PACKAGE
+                  </div>
+
+                  <div class="success-card-name">
+                    Lorem, ipsum.
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
+
+          <!-- Pagination Dots -->
+          <div class="swiper-pagination"></div>
+
         </div>
       </div>
+
     </div>
   </div>
+</section>
 </section>
 
 <section class="media-events-section py-5">
@@ -203,7 +280,9 @@ include __DIR__. '/include/navbar.php';
               <img src="assets/clg.jpg" class="card-img-top" alt="Event 2">
               <div class="card-body">
                 <span class="badge bg-warning text-dark mb-2">Program</span>
-                <h5 class="card-title">Exam Schedule and Result Updates</h5>
+                <a href="#" class="syllabus-link"> 
+                  <h5 class="card-title">Exam Schedule and Result Updates</h5>
+                </a>
               </div>
             </div>
           </div>
@@ -222,8 +301,10 @@ include __DIR__. '/include/navbar.php';
             <div class="card event-card overflow-hidden">
               <img src="assets/clg.jpg" alt="Event 4">
               <div class="card-body">
-                <span class="badge bg-warning text-dark mb-2">Program</span>
+              <span class="badge bg-warning text-dark mb-2">Program</span>
+              <a href="navlinks\feestruct.php" class="syllabus-link"> 
                 <h5 class="card-title">Fee Structure and Payment Information</h5>
+              </a>
               </div>
             </div>
           </div>
@@ -236,8 +317,11 @@ include __DIR__. '/include/navbar.php';
             <div class="card event-card overflow-hidden">
               <img src="assets/infra.jpg" class="card-img-top" alt="Media 1">
               <div class="card-body">
+                <a href="\ranchi-womens-clg\navlinks\infra.php" class="syllabus-link"> 
+
                 <span class="badge bg-warning text-dark mb-2">Campus Tour</span>
                 <h5 class="card-title">Campus Infrastructure and Facilities</h5>
+                </a>
               </div>
             </div>
           </div>
@@ -246,7 +330,10 @@ include __DIR__. '/include/navbar.php';
               <img src="assets/commiittee.jpg" class="card-img-top" alt="Media 2">
               <div class="card-body">
                 <span class="badge bg-warning text-dark mb-2">Campus Tour</span>
+                                <a href="#" class="syllabus-link"> 
+
                 <h5 class="card-title">Campus Committee and Community Spaces</h5>
+</a>
               </div>
             </div>
           </div>
@@ -254,8 +341,12 @@ include __DIR__. '/include/navbar.php';
             <div class="card event-card overflow-hidden">
               <img src="assets/IQAC.jpg" class="card-img-top" alt="Media 3">
               <div class="card-body">
+    
                 <span class="badge bg-warning text-dark mb-2">Campus Tour</span>
+                      <a href="#" class="syllabus-link"> 
+
                 <h5 class="card-title">IQAC Highlights and Quality Initiatives</h5>
+</a>
               </div>
             </div>
           </div>
@@ -264,7 +355,10 @@ include __DIR__. '/include/navbar.php';
               <img src="assets/online.jpg" class="card-img-top" alt="Media 4">
               <div class="card-body">
                 <span class="badge bg-warning text-dark mb-2">Campus Tour</span>
+                    <a href="#" class="syllabus-link"> 
+
                 <h5 class="card-title">Online Resources and Student Services</h5>
+</a>    
               </div>
             </div>
           </div>
