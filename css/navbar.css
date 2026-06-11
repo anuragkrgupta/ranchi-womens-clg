@@ -4,7 +4,7 @@
 
 .navbar {
     min-height: 62px;
-    position: sticky;
+    position: sticky !important; 
     top: 0;
     z-index: 1030;
     background-color: var(--nav-bg) !important;

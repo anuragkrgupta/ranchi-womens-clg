@@ -1,0 +1,448 @@
+.governing-body-section {
+    padding: 40px 0 60px;
+    background: #fff;
+    color: #234b9a;
+}
+
+
+/* Introduction */
+
+.committee-intro {
+    font-size: 1.05rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.committee-intro p {
+    margin-bottom: 8px;
+}
+
+.committee-intro ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 8px;
+}
+
+.committee-intro li {
+    margin-bottom: 5px;
+}
+
+
+/* Heading */
+
+.governing-title {
+    text-align: center;
+    color: #000;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: Georgia, serif;
+}
+
+
+.governing-subtitle {
+    color: #0b2f74;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+
+/* Table */
+
+.governing-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #f2f2e8;
+}
+
+
+.governing-table td {
+    border: 1px solid #b9b9b9;
+    padding: 14px;
+    vertical-align: top;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+
+/* Left column */
+
+.governing-table .designation {
+    width: 28%;
+    color: #234b9a;
+    font-weight: normal;
+}
+
+
+/* Right column */
+
+.governing-table .member {
+    color: #000;
+    font-weight: 700;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .governing-title {
+        font-size: 1.3rem;
+        line-height: 1.4;
+    }
+
+
+    .governing-subtitle {
+        font-size: 1.4rem;
+    }
+
+
+    .governing-table td {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+
+    .governing-table .designation {
+        width: 35%;
+    }
+
+
+    .committee-intro {
+        font-size: 0.95rem;
+    }
+}
+
+.governing-functions-section {
+    padding: 25px 0 50px;
+    color: #21489b;
+    background: #fff;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+.governing-functions-section p {
+    margin-bottom: 12px;
+}
+
+.governing-functions-section strong {
+    color: #163c8c;
+    font-size: 1.15rem;
+}
+
+.function-list {
+    list-style: square;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.function-list li {
+    margin-bottom: 8px;
+}
+
+.governing-functions-section h3 {
+    color: #163c8c;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.privilege-list {
+    margin-left: 30px;
+}
+
+.privilege-list li {
+    margin-bottom: 8px;
+}
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+
+    .governing-functions-section {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+
+    .governing-functions-section h3 {
+        font-size: 1.2rem;
+    }
+
+    .function-list,
+    .privilege-list {
+        margin-left: 20px;
+    }
+
+}
+
+.academic-council-section {
+    padding: 40px 0 60px;
+    color: #234b9a;
+    background: #fff;
+}
+
+
+/* Heading */
+
+.academic-title {
+    color: #0b2f74;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+
+/* Table */
+
+.academic-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #f2f2e8;
+    margin-bottom: 40px;
+}
+
+
+.academic-table td {
+    border: 1px solid #b9b9b9;
+    padding: 12px 14px;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: #234b9a;
+}
+
+
+/* Information */
+
+.academic-info {
+    font-size: 1.05rem;
+    line-height: 1.55;
+}
+
+
+.academic-info p {
+    margin-bottom: 10px;
+}
+
+
+.academic-info strong {
+    color: #163c8c;
+    font-size: 1.15rem;
+}
+
+
+.academic-functions {
+    margin-left: 25px;
+}
+
+
+.academic-functions li {
+    margin-bottom: 8px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .academic-title {
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+
+
+    .academic-table td {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+
+
+    .academic-info {
+        font-size: 0.95rem;
+    }
+
+
+    .academic-functions {
+        margin-left: 18px;
+    }
+
+}
+
+.board-studies-section {
+    padding: 40px 0 60px;
+    background: #fff;
+    color: #234b9a;
+}
+
+
+/* Heading */
+
+.board-title {
+    color: #0b2f74;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+
+/* Table */
+
+.board-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #f2f2e8;
+    margin-bottom: 30px;
+}
+
+.board-table td {
+    border: 1px solid #b9b9b9;
+    padding: 12px 14px;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: #234b9a;
+}
+
+
+/* Information */
+
+.board-info {
+    font-size: 1.05rem;
+    line-height: 1.55;
+}
+
+.board-info p {
+    margin-bottom: 10px;
+}
+
+.board-info strong {
+    color: #163c8c;
+    font-size: 1.15rem;
+}
+
+
+/* Function list */
+
+.board-functions {
+    margin-left: 25px;
+}
+
+.board-functions li {
+    margin-bottom: 8px;
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+    .board-title {
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+
+    .board-table td {
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+
+    .board-info {
+        font-size: 0.95rem;
+    }
+
+    .board-functions {
+        margin-left: 18px;
+    }
+}
+
+.finance-committee-section {
+    padding: 40px 0 60px;
+    background: #fff;
+    color: #234b9a;
+}
+
+
+/* Heading */
+
+.finance-title {
+    color: #0b2f74;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+
+/* Table */
+
+.finance-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #f2f2e8;
+    margin-bottom: 25px;
+}
+
+
+.finance-table td {
+    border: 1px solid #b9b9b9;
+    padding: 12px 14px;
+    font-size: 1.05rem;
+    line-height: 1.5;
+    color: #234b9a;
+}
+
+
+/* Information */
+
+.finance-info {
+    font-size: 1.05rem;
+    line-height: 1.55;
+}
+
+
+.finance-info p {
+    margin-bottom: 10px;
+}
+
+
+.finance-info strong {
+    color: #163c8c;
+    font-size: 1.15rem;
+}
+
+
+/* Function List */
+
+.finance-functions {
+    margin-left: 25px;
+}
+
+
+.finance-functions li {
+    margin-bottom: 8px;
+}
+
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+
+    .finance-title {
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+
+
+    .finance-table td {
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+
+
+    .finance-info {
+        font-size: 0.95rem;
+    }
+
+
+    .finance-functions {
+        margin-left: 18px;
+    }
+}
