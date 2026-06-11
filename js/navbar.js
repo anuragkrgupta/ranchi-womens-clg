@@ -1,19 +1,27 @@
-document.querySelectorAll('.dropdown-submenu > .dropdown-toggle')
-.forEach(function(el){
+document.addEventListener("DOMContentLoaded", function () {
 
-    el.addEventListener('click', function(e){
+    document.querySelectorAll(".dropdown-submenu > .dropdown-toggle")
+    .forEach(function(item) {
 
-        if(window.innerWidth < 992){
+        item.addEventListener("click", function(e) {
 
-            e.preventDefault();
-            e.stopPropagation();
+            if (window.innerWidth < 992) {
 
-            let submenu = this.nextElementSibling;
+                e.preventDefault();
+                e.stopPropagation();
 
-            if(submenu){
-                submenu.classList.toggle('show');
+                let submenu = this.nextElementSibling;
+
+                document.querySelectorAll(".dropdown-submenu .dropdown-menu.show")
+                .forEach(function(openMenu) {
+                    if (openMenu !== submenu) {
+                        openMenu.classList.remove("show");
+                    }
+                });
+
+                submenu.classList.toggle("show");
             }
-        }
+        });
 
     });
 
