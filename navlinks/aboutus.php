@@ -76,25 +76,25 @@ include('../include/navbar.php');
             <div class="about-card">
                 <img src="..\assets\vision\vinita.jpeg">
                 <div class="card-overlay"></div>
-                <div class="card-title">Principal's Message</div>
+                <div class="card-title"><a href="#">Principal's Message</a></div>
             </div>
 
             <div class="about-card">
                 <img src="../assets/aboutus/clgimg.jpeg">
                 <div class="card-overlay"></div>
-                <div class="card-title">Achievements</div>
+                <div class="card-title"><a href="#">Achievements</a></div>
             </div>
 
             <div class="about-card">
                 <img src="../assets/aboutus/clgimg.jpeg">
                 <div class="card-overlay"></div>
-                <div class="card-title">Governance</div>
+                <div class="card-title"><a href="#">Governance</a></div>
             </div>
 
             <div class="about-card">
                 <img src="../assets/aboutus/clgimg.jpeg">
                 <div class="card-overlay"></div>
-                <div class="card-title">Newsletters</div>
+                <div class="card-title"><a href="#">Newsletters</a></div>
             </div>
 
         </div>
@@ -108,7 +108,7 @@ include('../include/navbar.php');
 
             <h3>
                 <i class="fa fa-file-pdf-o"></i>
-                CURRENT UPDATES (ARCHIVE LIST)
+                CURRENT UPDATES
             </h3>
 
             <div class="blue-line"></div>
