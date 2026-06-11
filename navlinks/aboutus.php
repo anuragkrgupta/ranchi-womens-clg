@@ -5,7 +5,7 @@ include('../include/navbar.php');
 
 <!-- Banner -->
 <section class="about-banner">
-    <img src="../assets/aboutus/clgimg.jpeg" alt="About Us">
+    <img src="\ranchi-womens-clg\assets\slider-05-05-2026.webp" alt="About Us">
 
     <div class="banner-overlay">
         <h1>About Us</h1>
@@ -16,7 +16,6 @@ include('../include/navbar.php');
 <section class="about-intro">
 
     <div class="section-heading">
-        <h2>ABOUT US</h2>
         <span></span>
     </div>
 
@@ -88,7 +87,7 @@ include('../include/navbar.php');
             <div class="about-card">
                 <img src="../assets/aboutus/clgimg.jpeg">
                 <div class="card-overlay"></div>
-                <div class="card-title"><a href="#">Governance</a></div>
+                <div class="card-title"><a href="/ranchi-womens-clg/navlinks/statutory.php">Governance</a></div>
             </div>
 
             <div class="about-card">

@@ -1,0 +1,242 @@
+/* =================================
+   Global
+================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* =================================
+   Main Page Layout
+================================= */
+
+.seat-page {
+    background: #f3f3f3;
+    padding: 50px 20px;
+}
+
+.seat-container {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+
+/* =================================
+   Left Sidebar
+================================= */
+
+.seat-sidebar {
+    width: 340px;
+    min-width: 340px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+}
+
+.seat-sidebar h3 {
+    background: #00295c;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/* Sidebar Menu */
+
+.seat-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.seat-menu li {
+    position: relative;
+    padding: 22px 20px 22px 50px;
+    border-bottom: 1px solid #ddd;
+    color: #00295c;
+    font-size: 17px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+/* Arrow */
+
+.seat-menu li::before {
+    content: "›";
+    position: absolute;
+    left: 20px;
+    top: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #00295c;
+}
+
+
+.seat-menu li:hover {
+    background: #f8f8f8;
+}
+
+
+/* Active Menu */
+
+.seat-menu li.active {
+    background: #f6c400;
+    color: #000;
+    font-weight: 600;
+}
+
+.seat-menu li.active::before {
+    color: #000;
+}
+
+
+/* =================================
+   Right Content
+================================= */
+
+.seat-content {
+    flex: 1;
+    min-width: 0;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    padding: 35px;
+    min-height: 700px;
+}
+
+
+/* Content Title */
+
+.seat-content h2 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #00295c;
+    font-size: 32px;
+    font-weight: 700;
+    border-bottom: 3px solid #f6c400;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+
+/* Paragraph */
+
+.seat-content p {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+
+/* =================================
+   Table Design (If Needed)
+================================= */
+
+.seat-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 17px;
+}
+
+.seat-table th {
+    background: #00295c;
+    color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.seat-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    color: #0b2b55;
+}
+
+.seat-table tbody tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.seat-table tbody tr:hover {
+    background: #fff5e6;
+}
+
+
+/* =================================
+   Tablet
+================================= */
+
+@media (max-width: 992px) {
+
+    .seat-container {
+        flex-direction: column;
+    }
+
+    .seat-sidebar {
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .seat-content {
+        width: 100%;
+        min-height: auto;
+        padding: 25px;
+    }
+}
+
+
+/* =================================
+   Mobile
+================================= */
+
+@media (max-width: 768px) {
+
+    .seat-page {
+        padding: 30px 15px;
+    }
+
+    .seat-sidebar h3 {
+        font-size: 22px;
+        padding: 18px;
+    }
+
+    .seat-menu li {
+        font-size: 15px;
+        padding: 18px 15px 18px 42px;
+    }
+
+    .seat-menu li::before {
+        left: 15px;
+        top: 18px;
+        font-size: 20px;
+    }
+
+    .seat-content {
+        padding: 20px;
+    }
+
+    .seat-content h2 {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+
+    .seat-content p {
+        font-size: 16px;
+    }
+
+    .seat-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        font-size: 14px;
+    }
+
+}
