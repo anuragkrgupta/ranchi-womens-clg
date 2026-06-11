@@ -31,9 +31,18 @@
                         <li><a class="dropdown-item" href="/ranchi-womens-clg/navlinks/rules.php">Rules & Regulations</a></li>
                         <li><a class="dropdown-item" href="/ranchi-womens-clg/navlinks/holidaylist.php">Holiday List</a></li>
                         <!-- <li><a class="dropdown-item" href="#">Ranchi Univercity kulgeet</a></li> -->
-                        <li><a class="dropdown-item" href="#">IQAC & AQAR</a></li>
-                        <li><a class="dropdown-item" href="#">Statutory Bodies</a></li>
-                        <!-- <li><a class="dropdown-item" href="#">Committees</a></li> -->
+                        <li><a class="dropdown-item" href="/ranchi-womens-clg/navlinks/iqac.php">IQAC & AQAR</a></li>
+                        <li><a class="dropdown-item" href="/ranchi-womens-clg/navlinks/statutory.php">Statutory Bodies</a></li>
+                        <li class="dropdown-submenu">
+ 					    <a class="dropdown-item dropdown-toggle" href="#">
+        					Committees
+    					</a>
+    					<ul class="dropdown-menu">
+        					<li><a class="dropdown-item" href="\ranchi-womens-clg\assets\commitee\Administrative Committees 21-22 Final All Corrected.pdf">Directory of Committees - 2021-22</a></li>
+        					<li><a class="dropdown-item" href="\ranchi-womens-clg\assets\commitee\Directory of Committees 2022-23.pdf">Directory of Committees - 2022-23</a></li>
+        					<li><a class="dropdown-item" href="\ranchi-womens-clg\navlinks\committeelist.php">College Committees List 2025-26</a></li>
+    					</ul>
+						</li>
                         <!-- <li><a class="dropdown-item" href="#">Infrastructure</a></li> -->
                         <li><a class="dropdown-item" href="#">newsletter</a></li>
 
@@ -130,27 +139,3 @@
 </nav>
 
 </body>
-
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-    document.querySelectorAll(".dropdown-submenu > a")
-    .forEach(function(item) {
-
-        item.addEventListener("click", function(e) {
-
-            if (window.innerWidth < 992) {
-                e.preventDefault();
-                e.stopPropagation();
-
-                let submenu = this.nextElementSibling;
-
-                submenu.classList.toggle("show");
-            }
-
-        });
-
-    });
-
-});
-</script>

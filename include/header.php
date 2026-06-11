@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ranchi Women's College</title>
+        <link rel="icon" type="image/png" href="\ranchi-womens-clg\assets\clg logo.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="/ranchi-womens-clg/css/header.css">
         <link rel="stylesheet" href="/ranchi-womens-clg/css/style.css">
@@ -17,6 +18,13 @@
         <link rel="stylesheet" href="/ranchi-womens-clg/css/holidaylist.css">
         <link rel="stylesheet" href="/ranchi-womens-clg/css/syllabus.css">
         <link rel="stylesheet" href="/ranchi-womens-clg/css/progcourses.css">
+        <link rel="stylesheet" href="/ranchi-womens-clg/css/iqac.css">
+        <link rel="stylesheet" href="/ranchi-womens-clg/css/statutory.css">
+        <link rel="stylesheet" href="/ranchi-womens-clg/css/committeelist.css">
+        <link rel="stylesheet" href="/ranchi-womens-clg/css/infra.css">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
         <meta name="theme-color" content="#0b3b66">
